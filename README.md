@@ -104,3 +104,18 @@ Non-functional Requirements define the quality attributes, constraints, and oper
 - The platform should be accessible across mobile, tablet, and desktop devices.
 
 Both types of requirements are crucial for the success of the project. Functional requirements ensure the system delivers the desired capabilities, while non-functional requirements guarantee usability, reliability, and scalability.
+
+## Use Case Diagrams
+
+Use Case Diagrams are a visual representation of the interactions between the actors (users or external systems) and the system. They illustrate the system's functionality from the user's perspective, making it easier to understand the scope and requirements.
+
+### Benefits of Use Case Diagrams:
+- **Clarity**: Provide a clear overview of the system's interactions and functionality.
+- **Communication**: Serve as a tool to discuss and refine requirements with stakeholders.
+- **Focus**: Highlight the roles of different actors and their associated tasks, ensuring comprehensive coverage of requirements.
+
+### Use Case Diagram for the Booking Management System
+
+Below is the Use Case Diagram illustrating the interactions between actors (User and Administrator) and the booking system:
+
+![Use Case Diagram for Booking System](./alx-booking-uc.png)
