@@ -119,3 +119,34 @@ Use Case Diagrams are a visual representation of the interactions between the ac
 Below is the Use Case Diagram illustrating the interactions between actors (User and Administrator) and the booking system:
 
 ![Use Case Diagram for Booking System](./alx-booking-uc.png)
+
+## Acceptance Criteria
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+Acceptance Criteria define the specific conditions under which a feature or functionality is considered complete and meets the stakeholder's expectations. These criteria act as a benchmark for the development team, ensuring alignment between business goals and the delivered software.
+
+### Why Acceptance Criteria Are Important:
+- **Clarity**: Provide a clear understanding of what is required, reducing ambiguity in requirements.
+- **Validation**: Serve as a reference for testing to confirm that the software behaves as expected.
+- **Scope Control**: Help prevent scope creep by outlining precise deliverables.
+- **Collaboration**: Foster effective communication between stakeholders, developers, and testers.
+
+### Example: Acceptance Criteria for the Checkout Feature
+
+**Feature**: Checkout in the booking management system.
+
+1. **Scenario 1: Successful Checkout**
+   - The user must be able to review the booking summary before proceeding to payment.
+   - The system must validate all mandatory fields (e.g., payment details, personal information) before proceeding.
+   - Upon successful payment, a confirmation email with booking details must be sent to the user within 5 seconds.
+
+2. **Scenario 2: Insufficient Funds**
+   - If the payment method has insufficient funds, the system must display an error message: *"Payment declined. Please use a different method or contact your bank."*
+   - The user must be redirected to the payment options page to retry with a different method.
+
+3. **Scenario 3: Timeout During Payment**
+   - If the payment session times out, the system must cancel the transaction and notify the user with a message: *"Session expired. Please start again."*
+   - No amount should be deducted from the user's account.
+
+Acceptance Criteria help ensure that the development process stays focused and that delivered features meet user and business expectations.
